@@ -37,5 +37,5 @@ function pushEndAdd() {
     array3.shift();
     array3.shift();
     // result is  [12, 13, 14]
-    document.getElementById('unshiftResult').innerHTML = JSON.stringify(array3);
+    document.getElementById('shiftremovestartresult').innerHTML = JSON.stringify(array3);
     }
