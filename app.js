@@ -1,7 +1,7 @@
 // array push() --> Insert an element at the end // push end add
 function pushEndAdd() {
     const array = [1, 2, 3];
-    array.push(4)
+    array.push(4);
     //result 1, 2, 3, 4,
     document.getElementById("pushResult").innerHTML = JSON.stringify(array);
     }
@@ -11,9 +11,9 @@ function pushEndAdd() {
     //pop(): --> Remove an element from the end // pop remove end 
     function popRemoveEnd() {
     const array1 = [5, 6, 7, 8, 18];
-    array1.pop()
+    array1.pop();
     // result [5, 6, 7, 8}
-    array1.pop()
+    array1.pop();
     // result [5, 6, 7]
     document.getElementById('popResult').innerHTML = JSON.stringify(array1);
     }
