@@ -46,3 +46,7 @@ function pushEndAdd() {
     
     document.getElementById('shiftremovestartresult').innerHTML = JSON.stringify(array3);
     }
+
+
+
+    
