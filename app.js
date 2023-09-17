@@ -49,4 +49,13 @@ function pushEndAdd() {
 
 
 
+    // function for total 3 numbers
+    function sum(){
+    var a = +document.getElementById('inputA').value;
+    var b = +document.getElementById('inputB').value;
+    var c = +document.getElementById('inputC').value;
     
+    
+    var total = a + b + c;
+    document.getElementById('sumtotal').innerHTML = isNaN(total) ? 'Please enter a valid number' : 'Total:' +total;
+}
